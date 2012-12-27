@@ -1,0 +1,702 @@
+/*BOILERPLATE*/
+
+.clear {
+	clear: both;
+	}
+
+body {
+
+	font-family: 'Merriweather', "Futura", arial, sans-serif;
+}
+
+#wrapper {
+
+	position: relative;
+	width: 940px;
+	height: 627px;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#internalwrapper {
+
+	position: relative;
+	bottom: 0px;
+}
+
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11 {
+
+	position: relative;
+	width: 940px;
+	height: 627px;
+}
+
+#buttons {
+
+	position: absolute;
+	top: 475px;
+	left:0px;
+	z-index: 1;
+}
+
+#buttons img {
+
+	width: 60px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	float: left;
+}
+
+
+
+#downbutton {
+
+	position: absolute;
+	top: 60px;
+	left: 00px;
+}
+
+#upbutton {
+
+	display: none;
+	padding-bottom: 20px;
+	position: absolute;
+	top: -475px;
+}
+
+
+#buttonholder {
+
+	height: 200px;
+}
+
+
+
+#buttonholder {
+
+	height: 200px;
+}
+
+/*TILE 1*/
+
+#introcopy {
+
+	position: absolute;
+	top: 130px;
+	right: 50px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	color: white;
+	width: 642px;
+	overflow: hidden;
+	height: 90px;
+}
+
+#introcopy img {
+
+	width: 30px;
+	position: relative;
+	top: -5px;
+	z-index: 2;
+}
+
+#introheader {
+
+	font-size: 46px
+}
+
+#explainer {
+
+	font-size: 20px;
+	float: right;
+	color: #65c5fb;
+	padding-top: 5px;
+	padding-bottom: 20px
+}
+
+#mapncopy {
+
+	position: relative;
+	bottom: 0px;
+	width: 632px;
+	height: 264px;
+	margin: 10px;
+}
+
+#copyholder {
+
+	color: white;
+	float: right;
+	width: 320px;
+	text-align: left;
+	display: none;
+}
+
+
+#mapholder {
+
+	float: left;
+	height: 304px;
+	width: 272px;
+	display: none;
+}
+
+#close1 img {
+	width: 20px;
+	top: 0px;
+}
+
+#close1 {
+
+	position: absolute;
+	bottom: -60px;
+	right: 10px;
+	display: none
+}
+
+#mapncopy a {
+
+	text-decoration: none;
+	color: #65c5fb;
+}
+
+/*TILE 2*/
+
+#info2 {
+
+	position: absolute;
+	top: 150px;
+	left: 160px;
+}
+
+#info3 {
+
+	position: absolute;
+	top: 225px;
+	right: 410px;
+}
+
+#info2 img, #info3 img {
+
+	width: 30px;
+}
+
+#specials {
+
+	position: absolute;
+	top: 185px;
+	left: 30px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	width: 430px;
+	height: 320px;
+	display: none;
+}
+
+#board {
+
+	float: right;
+}
+
+.menuitem {
+
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background: green;
+}
+
+#itemA {
+
+	top: 30px;
+	left: 230px;
+	background: none;
+}
+
+#itemB {
+
+	top: 70px;
+	left: 230px;
+	background: none;
+}
+
+#itemC {
+
+	top: 100px;
+	left: 230px;
+	background: none;
+}
+
+#itemD {
+
+	top: 130px;
+	left: 230px;
+	background: none;
+}
+
+#itemE {
+
+	top: 165px;
+	left: 235px;
+	height: 30px;
+	width: 30px;
+	background: none;
+}
+
+#itemF {
+
+	top: 195px;
+	left: 230px;
+	height: 35px;
+	width: 35px;
+	background: none;
+}
+
+#itemG {
+
+	top: 225px;
+	left: 230px;
+	width: 35px;
+	height: 30px;
+	background: none;
+}
+
+#itemH {
+
+	top: 250px;
+	left: 230px;
+	width: 35px;
+	height: 35px;
+	background: none;
+}
+
+#itemI {
+
+	top: 280px;
+	left: 230px;
+	background: none;
+}
+
+#translations {
+
+	width: 200px;
+	height: 320px;
+	float: left;
+
+}
+
+.translation {
+
+	width: 190px;
+	padding: 0px 5px;
+	color: white;
+	font-size: 14px;
+	text-align: right;
+	height: 20px;
+	position: absolute;
+	display: none
+
+
+}
+
+#english1 {
+	top: 45px;
+}
+
+#english2 {
+
+	top: 75px;
+}
+
+#english3 {
+
+	top: 105px;
+}
+
+
+#english4 {
+
+	top: 145px;
+}
+
+#english5 {
+
+	top: 175px;
+}
+
+#english6 {
+
+	top: 200px;
+}
+
+#english7 {
+
+	top: 235px;
+}
+
+#english8 {
+
+	top: 260px;
+}
+
+#english9 {
+
+	top: 290px;
+}
+
+#specialheader {
+
+	height: 10px;
+	color: white;
+	line-height: 1em;
+}
+
+#clickonme {
+
+	color: white;
+	position: absolute;
+	top: 37px;
+	left: 20px;
+	width: 190px;
+	text-align: left;
+}
+
+#bluecopy {
+	color: #65c5fb;
+	display: none
+}
+
+#sliders {
+
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 350px;
+	height: 535px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	display: none
+}
+
+#sliders a {
+
+	color: #65c5fb;
+	text-decoration: none 
+}
+
+#sliderholder {
+
+	width: 350px;
+	height: 330px;
+	overflow: hidden;
+}
+
+#sliderbuttons {
+
+	width: 350px;
+	height: 50px;
+	padding-top: 5px;
+}
+
+#leftslider {
+
+	float: left;
+	display: none
+}
+
+#rightslider {
+
+	float: right;
+}
+
+#slidercopy {
+
+	width: 350px;
+	height: 140px;
+	color: white;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+#sliderpic  {
+
+	position: relative;
+	left: 0px;
+}
+
+/*SLIDE 3*/
+
+#info4, #info5, #info6, #info7, #foodpic4, #foodpic5, #foodpic6, #foodpic7 {
+
+	position: absolute;
+}
+
+#foodexplain {
+
+	position: absolute;
+	top: 250px;
+	left: 170px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	color: white;
+	text-align: left;
+	font-size: 25px
+
+}
+
+#info4 img, #info5 img, #info6 img, #info7 img {
+
+	width: 30px;
+}
+
+#info4 {
+
+	top: 200px;
+	left: 385px;
+}
+
+#info5 {
+
+	top: 355px;
+	left: 340px;
+}
+
+#info6 {
+
+	top: 120px;
+	left: 490px;
+}
+
+#info7 {
+
+	top: 340px;
+	left: 490px;
+}
+
+#foodpic4 {
+
+	width: 270px;
+	height: 253px;
+	top: 10px;
+	left: 90px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	display: none;
+}
+
+#pic4holder {
+
+	width: 270px;
+	height: 203px;
+}
+
+#copy4holder {
+
+	width: 270px;
+	height: 40px;
+}
+
+#dacechinese {
+
+	float: right;
+	padding-top: 10px;
+}
+
+#dacecopy {
+
+	color: white;
+	text-align: left;
+	padding-top: 5px;
+}
+
+#foodpic5 {
+
+	width: 385px;
+	height: 300px;
+	top: 10px;
+	right: 10px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	display: none;
+}
+
+#pic5holder {
+
+	width: 385px;
+	height: 270px;
+}
+
+#copy5holder {
+
+	width: 385px;
+	height: 30px;
+}
+
+#porkcopy {
+
+	float: left;
+	padding-top: 5px;
+	color: white;
+}
+
+#foodpic6 {
+
+	width: 375px;
+	height: 250px;
+	bottom: 10px;
+	right: 20px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	display: none;
+}
+
+#pic6holder {
+
+	width: 375px;
+	height: 210px;
+}
+
+#copy6holder {
+
+	width: 375px;
+	height: 40px;
+}
+
+#livercopy {
+
+	color: white;
+	float: left;
+	padding-top: 5px
+}
+
+
+#foodpic7 {
+
+	width: 300px;
+	height: 205px;
+	bottom: 10px;
+	left: 90px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	display: none;
+}
+
+#pic7holder {
+
+	width: 300px;
+	height: 180px;
+}
+
+#copy7holder {
+
+	width: 300px;
+	height: 20px;
+}
+
+#beefcopy {
+
+	color: white;
+	float: left;
+	padding-top: 5px
+}
+
+.chinesecopy {
+
+	color: #65c5fb;
+	font-size: 20px;
+}
+
+/*TILE 4*/
+
+
+.trailsholder {
+
+	position: absolute;
+	width: 270px;
+	height: 597;
+	top: 0px;
+	right: -30px;
+	height: 627px;
+	background: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+
+.trailsholder a {
+
+	color:white;
+	text-decoration: none;
+
+}
+
+.trailbox img {
+
+	width: 200px;
+}
+.trailbox {
+	padding: 20px 20px 0px 20px;
+	float: left;
+}
+
+.trailcopyholder {
+
+	width: 200px;
+	padding-top: 10px;
+}
+
+#bottomtrails {
+
+	padding-bottom: 20px;
+
+}
+
+#cityguide {
+
+	position: absolute;
+	top: 130px;
+	right: 300px;
+	font-size: 40px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	color: white;
+}
+
+#panelholder {
+
+	position: absolute;
+	left: -240px;
+	width: 750px;
+}
+
+#trailbuttons {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 230px;
+	padding: 5px;
+}
+
+#trailbuttons img {
+	width: 55px;
+}
+
+#trailleft {
+
+	float: left;
+}
+#trailright {
+
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
