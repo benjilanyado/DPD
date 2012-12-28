@@ -167,7 +167,7 @@ $("#itemI").click(function(event) {
 var sliderImages = [  
   {     
         position: "0px",
-        copy: "52-year old Lin Zhi Cheng's dai pai dong has been in his family since the 1960s, serving wok-cooked dishes to local workers in the heart of Central. Food is purchased from local markets, and each dish takes under three minutes to make - the most expensive costs HK$47 (£3.80)"
+        copy: "52-year old Lin Zhi Cheng's stall serves wok-cooked dishes to local workers in the heart of Central. Food is purchased from local markets, and each dish takes under three minutes to make - the most expensive costs HK$47 (£3.80)"
   }, {  
         position: "-350px",
         copy: "Ad hoc food stall licenses were first granted to the families of deceased and injured civil servants by the 1950s colonial Hong Kong government in the wake of World War Two. The large license ('<i>dai pai</i>') deeds were typically displayed on the front of the stalls, with a photograph of the owner"
@@ -248,6 +248,12 @@ function leftclick() {
 
         });
 
+ $("#info8").click(function(event) {
+
+    event.preventDefault();
+    $("#history").fadeToggle()
+
+        });
 // TILE 3 
 
 $("#info4").click(function(event) {

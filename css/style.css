@@ -125,11 +125,15 @@ body {
 
 #explainer {
 
-	font-size: 20px;
+	font-size: 25px;
 	float: right;
-	color: #65c5fb;
 	padding-top: 5px;
 	padding-bottom: 20px
+}
+
+#explainer a {
+
+	color: #65c5fb;
 }
 
 #mapncopy {
@@ -144,7 +148,9 @@ body {
 #copyholder {
 
 	color: white;
-	float: right;
+	position: absolute;
+	right: 0px;
+	top: 50px;
 	width: 320px;
 	text-align: left;
 	display: none;
@@ -153,7 +159,9 @@ body {
 
 #mapholder {
 
-	float: left;
+	position: absolute;
+	left: 0px;
+	top: 50px;
 	height: 304px;
 	width: 272px;
 	display: none;
@@ -180,11 +188,31 @@ body {
 
 /*TILE 2*/
 
+#history {
+
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 320px;
+	text-align: left;
+	display: none
+}
+
+#info8{
+
+	position: absolute;
+	top: 120px;
+	left: 445px;
+}
 #info2 {
 
 	position: absolute;
-	top: 150px;
-	left: 160px;
+	top: 530px;
+	left: 150px;
+
 }
 
 #info3 {
@@ -194,7 +222,7 @@ body {
 	right: 410px;
 }
 
-#info2 img, #info3 img {
+#info2 img, #info3 img, #info8 img {
 
 	width: 30px;
 }
@@ -444,7 +472,7 @@ body {
 
 /*SLIDE 3*/
 
-#info4, #info5, #info6, #info7, #foodpic4, #foodpic5, #foodpic6, #foodpic7 {
+#info4, #info5, #info6, #info7, #foodpic4, #foodpic5, #foodpic6, #foodpic7, #info8 {
 
 	position: absolute;
 }
