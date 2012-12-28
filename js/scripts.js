@@ -63,7 +63,7 @@ function upclick() {
 	});
 
 
-   $("#info1").on({
+   $("#introcopy").on({
   'click': function(event) {
 
               event.preventDefault();               
@@ -71,7 +71,10 @@ function upclick() {
                if($("#mapholder").css('display') == 'none'){
                   $("#introcopy").animate({"height": "420px"}, 700, function(){
                     $("#copyholder").fadeIn(function(){
-                      $("#mapholder").fadeIn()
+                      $("#mapholder").fadeIn(function(){
+                        $("#buttons").fadeIn()
+                      })
+
                     })
                   })
                 };
@@ -339,6 +342,23 @@ $("#trailleft").click(function(event){
 
 
   });
+
+ var mapOptions = {
+          zoom: 8,
+
+          center: new google.maps.LatLng(22.258, 114.1529),
+          mapTypeControl: false,
+          mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+          },
+          zoomControl: false,
+          zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.SMALL
+          },
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                      mapOptions);
 
 
 
