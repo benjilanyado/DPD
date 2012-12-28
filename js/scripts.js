@@ -73,6 +73,7 @@ function upclick() {
                     $("#copyholder").fadeIn(function(){
                       $("#mapholder").fadeIn(function(){
                         $("#buttons").fadeIn()
+                        $("#keepexploring").fadeIn()
                       })
 
                     })
