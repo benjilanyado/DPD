@@ -170,7 +170,7 @@ var sliderImages = [
         copy: "52-year old Lin Zhi Cheng's stall serves wok-cooked dishes to local workers in the heart of Central. Food is purchased from local markets, and each dish takes under three minutes to make - the most expensive costs HK$47 (£3.80)"
   }, {  
         position: "-350px",
-        copy: "Ad hoc food stall licenses were first granted to the families of deceased and injured civil servants by the 1950s colonial Hong Kong government in the wake of World War Two. The large license ('<i>dai pai</i>') deeds were typically displayed on the front of the stalls, with a photograph of the owner"
+        copy: "Ad hoc food stall licenses were first granted to the families of deceased and injured civil servants by the 1950s colonial Hong Kong government in the wake of the second world war. The large license ('<i>dai pai</i>') deeds were typically displayed on the front of the stalls, with a photograph of the owner"
   }, {  
         position: "-700px",
         copy: "Orders are placed at the table and ferried to and from the kitchen by dai pai dong workers - family and friends of the owner. Most dishes are wok-cooked with broths and sauces pre-made in the morning, and many include cheap offal cuts such as pig trotters and knuckles, and goose intestines"
